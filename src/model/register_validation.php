@@ -30,7 +30,7 @@ if (isset($_POST["submit"]))
 	$subject = "Welcome to Todo List";
 	$body = "<p>Thank you for registering!</p>
 				 <p>This is a verification email, please click the link to veriy your email address.</p>
-					<p><a href =http://localhost/todo/src/model/verify_email.php?code={$user->getVerificationCode()}>Click to verify</a></p>
+					<p><a href =http://213.149.59.42/todo/src/model/verify_email.php?code={$user->getVerificationCode()}>Click to verify</a></p>
 									 <p>If this is not you, please do not click on the link</p>";
 
 	if ($_POST['password'] != $_POST['password1']) {
