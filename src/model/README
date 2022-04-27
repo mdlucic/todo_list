@@ -1,0 +1,19 @@
+Right now this folder is in a mess, will change later
+
+Contains composer files, they will be removed to root directory 
+Contains logic from forms and validates user input 
+
+
+delete_todo.php -> Function for deleting todo from db.
+
+login_verification.php -> Verification from login form.
+
+register.php -> Redirects to page for registration because if email or username exits registion is displayed in register_validation.php  with error messages.
+
+register_validation.php -> Sets user data into db and send mail to user email address to verify token, if that fails show registration form again.
+
+send_email -> send_email function that uses PHPMailer and Gmail account
+
+verify_email -> if user clicked on the link sent via email set his status in db to enabled and login to see homepage
+
+todo_validation.php -> if the todo bar was not left empty insert user data into db 

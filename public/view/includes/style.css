@@ -1,0 +1,40 @@
+.title {
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.login {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(1, 250px);
+	margin-left: 55px;
+	margin-top: 20px;
+}
+
+.register {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(1, 230px);
+	margin-top: 60px;
+}
+
+.search {
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+.todo {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(2, 300px);
+	margin-left: 17em;
+	margin-top: 10px;
+	grid-row-gap: 20px;
+}
+
+.delete {
+	margin-top: 15px;
+	margin-left: 3em;
+}
+
